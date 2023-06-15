@@ -1,10 +1,11 @@
 <link rel="stylesheet" href="global.css">
 
 <?php
-
+	include 'vars.php';
+	
 	echo "<div class='title'><div class='t'>데이터베이스에서 레코드 검색</div>";
 	echo "<div class='sp'>2023학년 1학기 수행평가</div></div>";
-	echo "1. 학번 이름: 2629 최재민<br>";
+	echo "1. 학번 이름: $number $name<br>";
 	echo "2. 공인 IP 주소: "."<br>";
 	echo "3. 웹서버 IP 주소: ".$_SERVER["SERVER_ARRD"]."<br>";
 	echo "4. 서버 포트 주소: ".$_SERVER["SERVER_PORT"]."<br><br>";
