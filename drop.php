@@ -16,5 +16,5 @@
 	else
 		echo "Error: drop table fail";
 	
-	mysqli_close($link);
+	// mysqli_close($link);
 ?>

@@ -16,5 +16,5 @@
 	else
 		echo "Error: record insert fail";
 	
-	mysqli_close($link);
+	// mysqli_close($link);
 ?>

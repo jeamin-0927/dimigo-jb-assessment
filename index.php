@@ -16,6 +16,6 @@
 <a href="create_table.php">테이블 생성</a><br>
 <a href="insert.php">테이블에 레코드 삽입</a><br>
 <a href="mem_form.php">form을 이용한 서버 전송</a><br>
-<a href="mysql_fetch_row.php">데이터베이스에서 레코드 검색</a><br><br>
+<a href="mysqli_fetch_row.php">데이터베이스에서 레코드 검색</a><br><br>
 
 <a href="drop.php">리셋</a><br>

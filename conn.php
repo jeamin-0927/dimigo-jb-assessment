@@ -10,5 +10,5 @@
 	}
 
 	echo "Success: A proper connection to MySQL was made!";
-	mysqli_close($link);
+	// mysqli_close($link);
 ?>
