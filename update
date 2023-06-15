@@ -1,4 +1,4 @@
-apt install git
+sudo apt install git
 
 cd /var/www/html
 
