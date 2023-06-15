@@ -1,6 +1,6 @@
 <?php
 
-	$number = 2629;
+	$number = 26219;
 	$name = "최재민";
 
 	$db_username = "jeamxn";
