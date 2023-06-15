@@ -6,13 +6,13 @@
 		echo "Error: Unable to connect to MySQL.";
 		exit;
 	}
-
-	$sql = "insert into biz_card (num, name, company, tel, hp, address) values (1, 'ssp', 'ssparkcompanay', '031-276-1829', '010-8723-2837', 'bongdam city')";
+	
+	$sql = "drop table biz_card";
 	$result = mysqli_query($connect, $sql);
 	if($result)
-		echo "Success: record insert success";
+		echo "Success: drop table success";
 	else
-		echo "Error: record insert fail";
+		echo "Error: drop table fail";
 	
 	mysqli_close($link);
 ?>
