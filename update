@@ -14,3 +14,6 @@ if test -f "~/vars.php"; then
 	rm vars.php
 	cp ~/vars.php vars.php
 fi
+
+sudo chmod 766 *
+sudo chmod 777 update
