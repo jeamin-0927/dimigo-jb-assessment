@@ -14,7 +14,7 @@ git config --global --add safe.directory /var/www/html
 
 if [ -f "/tmp/webtemp/vars.php" ]; then
 	rm vars.php
-	cp /tmp/webtemp/ vars.php
+	cp /tmp/webtemp/vars.php vars.php
 fi
 
 sudo chmod 766 *
