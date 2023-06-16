@@ -1,19 +1,20 @@
 sudo apt install git
 
+mkdir /tmp/webtemp
+
 cd /var/www/html
 
-rm ~/vars.php
-cp vars.php ~/vars.php
+rm /tmp/webtemp/vars.php
+cp vars.php /tmp/webtemp/vars.php
 
 rm -rf ./*
 rm -rf ./.*
 git clone https://github.com/jeamin-0927/dimigo-jb-assessment .
 git config --global --add safe.directory /var/www/html
 
-if [ -f "~/vars.php" ]; then
+if [ -f "/tmp/webtemp/vars.php" ]; then
 	rm vars.php
-	cp ~/vars.php vars.php
-	echo "var copyed"
+	cp /tmp/webtemp/ vars.php
 fi
 
 sudo chmod 766 *
