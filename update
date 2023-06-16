@@ -10,9 +10,10 @@ rm -rf ./.*
 git clone https://github.com/jeamin-0927/dimigo-jb-assessment .
 git config --global --add safe.directory /var/www/html
 
-if test -f "~/vars.php"; then
+if [-f "~/vars.php"]; then
 	rm vars.php
 	cp ~/vars.php vars.php
+	echo "var copyed"
 fi
 
 sudo chmod 766 *
