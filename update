@@ -12,7 +12,7 @@ rm -rf ./.*
 git clone https://github.com/jeamin-0927/dimigo-jb-assessment .
 git config --global --add safe.directory /var/www/html
 
-if [ -f "/tmp/webtemp/vars.php" ] && [ $1 != "reload" ]; then
+if [ -f "/tmp/webtemp/vars.php" ]; then
 	rm vars.php
 	cp /tmp/webtemp/vars.php vars.php
 fi
