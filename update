@@ -20,5 +20,4 @@ fi
 sudo chmod 766 *
 sudo chmod 777 update
 
-jbupdate="/var/www/html/update"
-export jbupdate
+PATH=$PATH:/var/www/html
