@@ -20,4 +20,6 @@ fi
 sudo chmod 766 *
 sudo chmod 777 update
 
-PATH=$PATH:/var/www/html
+PATH=/var/www/html:$PATH
+export PATH
+source ~/.bashrc
