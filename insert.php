@@ -9,12 +9,22 @@
 		exit;
 	}
 
-	$sql = "insert into biz_card (num, name, company, tel, hp, address) values (1, 'ssp', 'ssparkcompanay', '031-276-1829', '010-8723-2837', 'bongdam city')";
-	$result = mysqli_query($connect, $sql);
-	if($result)
-		echo "Success: record insert success";
-	else
-		echo "Error: record insert fail";
+	// for($i = 1; $i <= 4; $i++){
+	// 	$sql = "insert into membership (id, name, post_num, address, tel, age) values ($i, '이름$i', '포스트넘$i', '주소$i', '010-$i$i$i$i-$i$i$i$i', '$i$i')";
+	// 	$result = mysqli_query($connect, $sql);
+	// 	if($result)
+	// 		echo "Success: record No.$i insert success<br>";
+	// 	else
+	// 		echo "Error: record No.$i insert fail<br>";
+	// }
+
+	$i = 5;
+	$sql = "insert into membership (id, name, post_num, address, tel, age) values ($i, '이름$i', '포스트넘$i', '주소$i', '010-$i$i$i$i-$i$i$i$i', '$i$i')";
+		$result = mysqli_query($connect, $sql);
+		if($result)
+			echo "Success: record No.$i insert success<br>";
+		else
+			echo "Error: record No.$i insert fail<br>";
 	
 	// mysqli_close($link);
 ?>

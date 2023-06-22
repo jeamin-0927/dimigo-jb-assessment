@@ -18,7 +18,7 @@
 			exit;
 		}
 
-		$sql = "select * from biz_card";
+		$sql = "select * from membership";
 		$result = mysqli_query($connect, $sql);
 		$fields = mysqli_num_fields($result);
 		if(!$result)
@@ -29,12 +29,12 @@
 	<h2>mysqli_fetch_row()를 이용한 데이터 읽기</h2>
 	<table width="800" border="1" cellspacing="0" cellpadding="5">
 		<tr align="center">
-			<td bgcolor="#ccc">일련번호</td>
-			<td bgcolor="#ccc">이름</td>
-			<td bgcolor="#ccc">회사</td>
-			<td bgcolor="#ccc">전화번호</td>
-			<td bgcolor="#ccc">핸드폰번호</td>
-			<td bgcolor="#ccc">주소</td>
+			<td bgcolor="#ccc">id</td>
+			<td bgcolor="#ccc">name</td>
+			<td bgcolor="#ccc">post_num</td>
+			<td bgcolor="#ccc">address</td>
+			<td bgcolor="#ccc">tel</td>
+			<td bgcolor="#ccc">age</td>
 		</tr>
 
 		<?php

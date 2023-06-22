@@ -9,15 +9,15 @@
 		exit;
 	}
 	
-	$sql = "create table biz_card (
-		num int,
-		name char(10),
-		company char(30),
-		tel char(20),
-		hp char(20),
-		address char(100),
-		primary key(num)
-	);";
+	$sql = "create table membership1 (
+		id  varchar(10) not null,
+		name varchar(10) not null,
+		post_num char(8),
+		address varchar(80),
+		tel varchar(20),
+		age int,
+		primary key(id)
+		);";
 	$result = mysqli_query($connect, $sql);
 	if($result)
 		echo "Success: create table success";
