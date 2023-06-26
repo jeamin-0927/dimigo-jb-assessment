@@ -53,8 +53,8 @@
 			<tr>
 				<td align="right">성별: </td>
 				<td class="radioInput">
-					<div><input type="radio" name="gender" value="M" checked> 남</div>
-					<div><input type="radio" name="gender" value="F" checked> 여</div>
+					<div><input type="radio" name="gender" value="M" checked>남</div>
+					<div><input type="radio" name="gender" value="F">여</div>
 				</td>
 			</tr>
 		</table>
