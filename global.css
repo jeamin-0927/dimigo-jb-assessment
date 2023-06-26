@@ -55,3 +55,55 @@ div{
   font-size: 22px;
   font-weight: 400;
 }
+
+.input{
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+.radioInput{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+.radioInput > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1px;
+}
+
+.table2{
+  margin-top: 10px;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.inputbtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  font-size: 13px;
+  outline: 0;
+  border: 1px solid #00000020;
+  background-color: #fff;
+  border-radius: 3px;
+  transition: background-color .2s ease-in-out;
+}
+.inputbtn:active, .inputbtn:hover{
+  background-color: #ededed;
+}

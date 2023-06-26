@@ -32,24 +32,40 @@
 		<table border="1" width="640" cellspacing="1" cellpadding="4">
 			<tr>
 				<td align="right">* 아이디: </td>
-				<td><input type="text" size="15" maxlength="12" name="id" value="guest" /></td>
+				<td><input class="input" type="text" size="15" maxlength="12" name="id" value="guest" /></td>
 			</tr>
 
 			<tr>
 				<td align="right">* 이름: </td>
-				<td><input type="text" size="15" maxlength="12" name="name" /></td>
+				<td><input class="input" type="text" size="15" maxlength="12" name="name" /></td>
 			</tr>
 
 			<tr>
 				<td align="right">* 비밀번호: </td>
-				<td><input type="password" size="15" maxlength="10" name="passwd" /></td>
+				<td><input class="input" type="password" size="15" maxlength="10" name="passwd" /></td>
 			</tr>
 
 			<tr>
 				<td align="right">* 비밀번호 확인: </td>
-				<td><input type="password" size="15" maxlength="10" name="checkpw" /></td>
+				<td><input class="input" type="password" size="15" maxlength="10" name="checkpw" /></td>
 			</tr>
 
+			<tr>
+				<td align="right">성별: </td>
+				<td class="radioInput">
+					<div><input type="radio" name="gender" value="M" checked> 남</div>
+					<div><input type="radio" name="gender" value="F" checked> 여</div>
+				</td>
+			</tr>
+		</table>
+
+		<table border="0" width="640" class="table2">
+			<tr>
+				<td align="center" class="btns">
+					<input type="submit" value="확인" class="inputbtn">
+					<input type="reset" value="다시작성" class="inputbtn">
+				</td>
+			</tr>
 		</table>
 	</form>
 
