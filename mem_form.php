@@ -32,7 +32,7 @@
 		<table border="1" width="640" cellspacing="1" cellpadding="4">
 			<tr>
 				<td align="right">* 아이디: </td>
-				<td><input class="input" type="text" size="15" maxlength="12" name="id" value="guest" /></td>
+				<td><input class="input" type="text" size="15" maxlength="10" name="id" value="guest" /></td>
 			</tr>
 
 			<tr>
