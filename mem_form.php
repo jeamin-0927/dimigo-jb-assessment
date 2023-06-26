@@ -41,22 +41,32 @@
 			</tr>
 
 			<tr>
-				<td align="right">* 비밀번호: </td>
-				<td><input class="input" type="password" size="15" maxlength="10" name="passwd" /></td>
+				<td align="right">* 우편번호: </td>
+				<td><input class="input" type="number" size="15" maxlength="8" name="post_num" /></td>
 			</tr>
 
 			<tr>
-				<td align="right">* 비밀번호 확인: </td>
-				<td><input class="input" type="password" size="15" maxlength="10" name="checkpw" /></td>
+				<td align="right">주소: </td>
+				<td><input class="input" type="text" size="15" maxlength="80" name="address" /></td>
 			</tr>
 
 			<tr>
+				<td align="right">전화번호: </td>
+				<td><input class="input" type="text" size="15" maxlength="20" name="tel" /></td>
+			</tr>
+
+			<tr>
+				<td align="right">나이: </td>
+				<td><input class="input" type="number" size="15" maxlength="2" name="age" /></td>
+			</tr>
+
+			<!-- <tr>
 				<td align="right">성별: </td>
 				<td class="radioInput">
 					<div><input type="radio" name="gender" value="M" checked>남</div>
 					<div><input type="radio" name="gender" value="F">여</div>
 				</td>
-			</tr>
+			</tr> -->
 		</table>
 
 		<table border="0" width="640" class="table2">
